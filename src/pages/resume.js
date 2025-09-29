@@ -2,8 +2,9 @@ function Resume() {
     return (
         <div className="mt-28 p-16">
             <div className="bg-gray-200 h-24 text-center">
-                <h1 className="text-2xl font-semibold p-4 mt-2">Jyoti Patel</h1>
-                <p className="text-md font-semibold text-blue-400">Front-end Developer | React Developer</p>
+                 <h1 className='text-4xl font-semibold'> Resume</h1>
+                {/* <h1 className="text-2xl font-semibold p-2">Jyoti Patel</h1> */}
+                <p className="text-md font-semibold text-blue-400 mt-2">Front-end Developer | React Developer</p>
             </div>
 
             <div>

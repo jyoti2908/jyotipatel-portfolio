@@ -14,9 +14,10 @@ function Header() {
                     <div/>
                     <div/>
                 <div className="flex gap-6 mt-5 -ml-24">
-                    <Link to='/resume'>Resume |</Link>
-                    <Link to='/projects'>Projects |</Link>
-                    <Link to='/contact'>Contact</Link>
+                         <Link to="/" className="hover:text-blue-500"></Link>
+                    <Link className='hover:text-pink-900' to='/resume'>Resume |</Link>
+                    <Link className='hover:text-pink-900' to='/projects'>Projects |</Link>
+                    <Link className='hover:text-pink-900' to='/contact'>Contact</Link>
                 </div>
             </div>
         </div>
