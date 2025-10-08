@@ -4,28 +4,28 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Footer() {
     return (
-        <div className="flex p-4 justify-between bg-gray-300 border-t-1 border-gray-500">
+        <div className="flex p-4 justify-between bg-gray-300 border-gray-500">
             <div>
-                <h1 className="text-center text-sm">Email </h1>
-            <div className="flex gap-4 mt-2"> 
-               <a href='https://mail.google.com/mail/'><TfiEmail className="text-blue-400 h-6 w-4 ml-4"/></a>
-                <a className="hover:text-blue-500 text-sm" href='https://mail.google.com/mail/'>jyotipatel.gweca@gmail.com </a>
-            </div>
+                <h1 className="text-center text-sm text-blue-800">Email </h1>
+                <div className="flex gap-4 mt-2">
+                    <a href='https://mail.google.com/mail/'><TfiEmail className="text-blue-400 h-6 w-4 ml-4" /></a>
+                    <a className="hover:text-blue-500 text-sm" href='https://mail.google.com/mail/'>jyotipatel.gweca@gmail.com </a>
+                </div>
             </div>
             <div>
-                <h1 className="text-center text-sm">Get Connected</h1>
+                <h1 className="text-center text-sm text-blue-800">Get Connected</h1>
                 <div className=" flex flex-col gap-2 mt-2">
                     <div className="flex gap-4 justify-center">
                         <div>
-                          <a href='https://github.com/jyoti2908'>< FaGithub className="h-6 w-6"/></a>
+                            <a href='https://github.com/jyoti2908'>< FaGithub className="h-6 w-6" /></a>
                         </div>
                         <div>
-                           <a className="hover:text-blue-500 text-sm" href='https://github.com/jyoti2908'>https://github.com/jyoti2908</a> 
+                            <a className="hover:text-blue-500 text-sm" href='https://github.com/jyoti2908'>https://github.com/jyoti2908</a>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div>
-                            <a href='https://www.linkedin.com/in/jyotipatel192919/'>< CiLinkedin className="h-6 w-6 text-blue-400"/></a>
+                            <a href='https://www.linkedin.com/in/jyotipatel192919/'>< CiLinkedin className="h-6 w-6 text-blue-400" /></a>
                         </div>
                         <div>
                             <a className="hover:text-blue-500 text-sm" href='https://www.linkedin.com/in/jyotipatel192919/'>https://www.linkedin.com/in/jyotipatel192919/</a>
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div>
-                <p className="text-sm text-gray-800"> © Designed by Jyoti Patel <br /> All rights reserved.</p>
+                <p className="text-xs text-blue-800"> © Designed by Jyoti Patel <br /> All rights reserved.</p>
             </div>
         </div>
     )
