@@ -4,16 +4,17 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Footer() {
     return (
-        <div className="flex p-4 justify-between bg-gray-300 border-gray-500">
+        <div className="bg-cover bg-no-repeat flex p-4 justify-between h-auto"
+         style={{ backgroundImage: "url('footer.webp')"}}>
             <div>
-                <h1 className="text-center text-sm text-blue-800">Email </h1>
+                <h1 className="text-center text-sm text-gray-400">Email </h1>
                 <div className="flex gap-4 mt-2">
                     <a href='https://mail.google.com/mail/'><TfiEmail className="text-blue-400 h-6 w-4 ml-4" /></a>
                     <a className="hover:text-blue-500 text-sm" href='https://mail.google.com/mail/'>jyotipatel.gweca@gmail.com </a>
                 </div>
             </div>
             <div>
-                <h1 className="text-center text-sm text-blue-800">Get Connected</h1>
+                <h1 className="text-center text-sm text-gray-400">Get Connected</h1>
                 <div className=" flex flex-col gap-2 mt-2">
                     <div className="flex gap-4 justify-center">
                         <div>
@@ -34,7 +35,7 @@ function Footer() {
                 </div>
             </div>
             <div>
-                <p className="text-xs text-blue-800"> © Designed by Jyoti Patel <br /> All rights reserved.</p>
+                <p className="text-xs text-gray-400"> © Designed by Jyoti Patel <br /> All rights reserved.</p>
             </div>
         </div>
     )

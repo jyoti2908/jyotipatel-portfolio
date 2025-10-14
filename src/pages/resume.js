@@ -1,8 +1,9 @@
 function Resume() {
     return (
-        <div className="mt-28 bg-gray-100">
-            <div className="bg-emerald-200 h-24 w-full text-center">
-                 <h1 className='text-4xl font-semibold'> Resume</h1>
+        <div>
+        <div>
+            <div className="h-24 w-full text-center">
+                 <h1 className='text-4xl font-semibold mt-20'> Resume</h1>
                 <p className="text-lg font-semibold mt-2">Front-end Developer | React Developer</p>
             </div>
 
@@ -66,7 +67,7 @@ function Resume() {
             <br/>
             <br/>
         </div>
-        
+        </div>
     )
 }
 export default Resume;
