@@ -2,38 +2,44 @@ import { Link } from "react-router-dom";
 
 function Body() {
     return (
-        <div className="flex gap-24 px-16 py-32">
+        <div className="mx-auto md:mx-0 flex md:gap-24 md:px-16 md:py-32 px-2 py-16">
             <div>
-                <img className="lg:h-64 lg:w-64 rounded-full ml-16 mt-12 opacity-0 animate-slideInLeft " src="jt.jpg" />
+                <img className="hidden md:block h-20 w-20 md:h-64 md:w-64 rounded-full md:ml-16 md:mt-12 opacity-0 
+                animate-slideInLeft " src="jt.jpg" />
             </div>
             <div />
             <div>
-                <div className="text-6xl font-bold font-serif text-left opacity-0 animate-bounceFromTop"> Hello </div>
+                <div className="text-xl md:text-6xl font-bold font-serif text-left opacity-0 animate-bounceFromTop"> Hello </div>
                 <br />
-                <div className="text-left text-white opacity-0 animate-bounceFromTop">
-                    <div className="text-sm text-gray-200">
-                        I'm a self motivated Front-end Developer with a focus on building responsive<br />
-                        and dynamic web applications using React. <br /><br />
+                <div className="mx-auto md:mx-0 text-left text-white opacity-0 animate-bounceFromTop
+                h-auto overflow-y-auto break-words">
+                    <div className="mx-auto text-xs md:text-sm text-gray-200">
+                        <p>I'm a self motivated Front-end Developer with a focus on building responsive</p>
+                        <p>and dynamic web applications using React. </p>
                     </div>
-                    <div className="text-sm font-sans text-gray-200">
-                        I enjoy turning complex problems into clean,intuitive user interfaces.<br />
-                        My experience spans from developing dynamic, responsive web interfaces<br />
-                        to training individuals in Public speaking and Communication skills. Giving <br />
-                        me a unique blend of technical expertise ans strong interpersonal communication.<br /><br /></div>
-                    <div className="text-sm text-gray-200">
-                        This portfolio showcases my hands-on projects, where I’ve worked with<br />
-                        React.js, JavaScript, HTML, and CSS to create fast and user-friendly experiences.
+                    <br />
+                    <div className="mx-auto text-xs md:text-sm font-sans text-gray-200">
+                        <p>I enjoy turning complex problems into clean,intuitive user interfaces.</p>
+                        <p>My experience spans from developing dynamic, responsive web interfaces</p>
+                        <p>to training individuals in Public speaking and Communication skills. Giving </p>
+                        <p>me a unique blend of technical expertise ans strong interpersonal communication.</p>
+                    </div>
+                    <br />
+                    <div className="mx-auto text-xs md:text-sm text-gray-200">
+                        <p>This portfolio showcases my hands-on projects, where I’ve worked with</p>
+                        <p>React.js, JavaScript, HTML, and CSS to create fast and user-friendly experiences.</p>
                     </div>
                 </div>
                 <br />
-                <div className="text-left">
-                    <Link to='/resume'><button className="h-32 w-32 bg-blue-400 rounded-full text-white text-xl font-mono hover:bg-blue-500 opacity-0 animate-fadeInUp">Resume</button></Link>
-                    <Link to='/projects'><button className="ml-4 h-32 w-32 bg-green-500 rounded-full text-white text-xl font-mono hover:bg-green-700 opacity-0 animate-fadeInUp">Projects</button></Link>
-                    <Link to='/contact'><button className="ml-4 h-32 w-32 bg-red-500 rounded-full text-white text-xl font-mono hover:bg-red-700 opacity-0 animate-fadeInUp">Contact</button></Link>
-
+                <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4">
+                    <Link to="/resume"><button className="aspect-square w-20 md:w-32 bg-blue-400 rounded-full text-white text-sm md:text-lg 
+                    font-mono flex items-center justify-center hover:bg-blue-500 transition-all duration-300 animate-fadeInUp">Resume</button></Link>
+                    <Link to="/projects"><button className="aspect-square w-20 md:w-32 bg-green-500 rounded-full text-white text-sm md:text-lg 
+                    font-mono flex items-center justify-center hover:bg-green-700 transition-all duration-300 animate-fadeInUp">Projects</button></Link>
+                    <Link to="/contact"><button className="aspect-square w-20 md:w-32 bg-red-500 rounded-full text-white text-sm md:text-lg font-mono 
+                    flex items-center justify-center hover:bg-red-700 transition-all duration-300 animate-fadeInUp"> Contact </button></Link>
                 </div>
             </div>
-
         </div>
     )
 }
