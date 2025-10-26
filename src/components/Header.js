@@ -13,7 +13,7 @@ function Header() {
                 <div />
                 <div />
                 <div />
-               <div className="flex flex-col md:flex-row items-center justify-center md:justify-end gap-2 md:gap-6 mt-20 md:mt-6">
+               <div className="flex flex-row items-center justify-center md:justify-end gap-2 md:gap-6 mt-20 md:mt-6">
 
                     <Link
                         className="hover:text-pink-500 transition-transform duration-300 hover:scale-110"
