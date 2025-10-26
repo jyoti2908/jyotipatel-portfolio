@@ -7,7 +7,7 @@ function Contact() {
         <div>
             <h1 className="text-sm font-semibold md:text-2xl text-white h-auto bg-emerald-400 text-center px-8 py-8">CONTACT PAGE</h1>
             <div className="flex items-center justify-center bg-black text-white">
-                <div className="mx-auto mt-28 border-2 border-emerald-600 md:p-12 px-4 py-2 rounded-xl mb-32">
+                <div className="mx-auto mt-24 border-2 border-emerald-600 md:p-12 px-4 py-2 rounded-xl mb-24">
                     <form>
                         <div className="border-b-2 border-gray-700">
                             <h1 className="text-lg text-left text-semibold text-blue-400 mb-1">Email </h1>
