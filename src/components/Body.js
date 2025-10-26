@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Body() {
     return (
-        <div className="mx-auto md:mx-0 flex md:gap-24 md:px-16 py-32 px-2">
+        <div className="mx-auto md:mx-0 flex md:gap-24 md:px-16 md:py-32 px-2">
             <div>
                 <img className="hidden md:block h-20 w-20 md:h-64 md:w-64 rounded-full md:ml-16 md:mt-12 opacity-0 
                 animate-slideInLeft " src="jt.jpg" />
