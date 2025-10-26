@@ -5,7 +5,7 @@ function Resume() {
                 <h1 className="text-sm font-semibold md:text-2xl ">RESUME</h1>
                 <p className="text-xs md:text-xl font-semibold mt-2">Front-end Developer | React Developer</p>
             </div>
-            <div className="p-2 overflow-y-auto break-words">
+            <div className="p-2 overflow-y-auto break-words text-justify">
                 <h1 className="text-left md:text-lg md:ml-24 mt-12 text-blue-500 font-sans first-letter:text-4xl first-letter:text-blue-500">Professional Summary</h1>
                 <p className="text-left md:text-md md:ml-72 mt-4 text-gray-700 first-line:text-blue-700">A self-motivated ReactJS developer with strong communication and public speaking skills, eager to contribute
                     <br />to client-focused development environments with a strong foundation in JavaScript, React.js, and <br />
