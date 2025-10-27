@@ -43,7 +43,7 @@ function Projects() {
                     </ul>
                 </div>
 
-                <div className="p-2 mt-6">
+                <div className="p-2 md:mt-6 text-center">
                     <img className='border-none md:h-[310px] md:w-[470px] rounded-md shadow-lg shadow-gray-500 md:mt-32 mt-4
                                     transition-transform duration-[3000ms] ease-in-out 
                                     hover:translate-x-12 hover:translate-y-24' src="ecomm.png" />
@@ -94,12 +94,12 @@ function Projects() {
                     </ul>
                 </div>
 
-                <div className="p-2 mt-6 ml-28">
+                <div className="p-2 md:mt-6 md:ml-28 text-center">
                     <img className='mx-auto border-none md:h-[310px] md:w-[470px] rounded-md shadow-lg shadow-gray-500 md:mt-32 mt-4
                                     transition-transform duration-[3000ms] ease-in-out 
                                     hover:translate-x-12 hover:translate-y-24' src="EMS.png" />
                     <div className="mt-4">
-                        <a className="hover:text-pink-800 text-blue-500" href='https://employee-management-system-ems-steel.vercel.app/'>https://employee-management-system-ems-steel.vercel.app/</a>
+                        <a className="hover:text-pink-800 text-blue-500 text-xs md:text-sm" href='https://employee-management-system-ems-steel.vercel.app/'>https://employee-management-system-ems-steel.vercel.app/</a>
                     </div>
                 </div>
 
