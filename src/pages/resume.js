@@ -1,8 +1,8 @@
 function Resume() {
     return (
         <div>
-            <div className="text-white h-auto bg-emerald-400 text-center px-8 py-4">
-                <h1 className="text-sm font-semibold md:text-2xl ">RESUME</h1>
+            <div className="text-white h-auto bg-blue-400 text-center px-8 py-4">
+                <h1 className="text-sm font-semibold md:text-2xl">RESUME</h1>
                 <p className="text-xs md:text-xl font-semibold mt-2">Front-end Developer | React Developer</p>
             </div>
             <div className="p-2 overflow-y-auto text-justify">

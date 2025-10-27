@@ -5,7 +5,7 @@ import { CiLinkedin } from "react-icons/ci";
 function Contact() {
     return (
         <div>
-            <h1 className="text-sm font-semibold md:text-2xl text-white h-auto bg-emerald-400 text-center px-8 py-8">CONTACT PAGE</h1>
+            <h1 className="text-sm font-semibold md:text-2xl text-white h-auto bg-red-400 text-center px-8 py-8">CONTACT PAGE</h1>
             <div className="flex items-center justify-center bg-black text-white">
                 <div className="mx-auto mt-24 border-2 border-emerald-600 md:p-12 px-4 py-2 rounded-xl mb-24">
                     <form>
