@@ -54,9 +54,38 @@ function Resume() {
                 </ul>
             </div>
             <div className="p-2 overflow-y-auto text-justify">
-
                 <h1 className="md:text-left md:ml-72 mt-4 first-line:text-blue-500">
-                    2. Employee Management System (EMS) <a href='https://employee-management-system-ems-steel.vercel.app/'>
+                   2. Weather Forecast <a href='https://weather-forecast-rouge-five.vercel.app/'>
+                        <span className="md:text-sm text-center text-red-500 hover:bg-red-400 hover:text-white"> (https://weather-forecast-rouge-five.vercel.app/)</span></a></h1>
+                <ul className="list-disc text-gray-700 leading-relaxed text-left md:ml-80 mt-4">
+                    <li className="first-letter:text-blue-700"></li>
+                    <li className="first-letter:text-blue-700"> </li>
+                    <li className="first-letter:text-blue-700"></li>
+                </ul>
+            </div>
+             <div className="p-2 overflow-y-auto text-justify">
+                <h1 className="md:text-left md:ml-72 mt-4 first-line:text-blue-500">
+                   3. Quiz App <a href='https://quiz-app-six-dusky-78.vercel.app/'>
+                        <span className="md:text-sm text-center text-red-500 hover:bg-red-400 hover:text-white"> (https://quiz-app-six-dusky-78.vercel.app/)</span></a></h1>
+                <ul className="list-disc text-gray-700 leading-relaxed text-left md:ml-80 mt-4">
+                    <li className="first-letter:text-blue-700"></li>
+                    <li className="first-letter:text-blue-700"> </li>
+                    <li className="first-letter:text-blue-700"></li>
+                </ul>
+            </div>
+             <div className="p-2 overflow-y-auto text-justify">
+                <h1 className="md:text-left md:ml-72 mt-4 first-line:text-blue-500">
+                   4. Dashboard (Admin Panel) <a href='https://dash-board-admin-panel-three.vercel.app/'>
+                        <span className="md:text-sm text-center text-red-500 hover:bg-red-400 hover:text-white"> (https://dash-board-admin-panel-three.vercel.app/)</span></a></h1>
+                <ul className="list-disc text-gray-700 leading-relaxed text-left md:ml-80 mt-4">
+                    <li className="first-letter:text-blue-700"></li>
+                    <li className="first-letter:text-blue-700"> </li>
+                    <li className="first-letter:text-blue-700"></li>
+                </ul>
+            </div>
+            <div className="p-2 overflow-y-auto text-justify">
+                <h1 className="md:text-left md:ml-72 mt-4 first-line:text-blue-500">
+                    5. Employee Management System (EMS) <a href='https://employee-management-system-ems-steel.vercel.app/'>
                         <span className="md:text-sm text-center text-red-500 hover:bg-red-400 hover:text-white"> (https://employee-management-system-ems-steel.vercel.app/)</span></a></h1>
                 <ul className="list-disc text-gray-700 leading-relaxed text-left md:ml-80 mt-4">
                     <li className="first-letter:text-blue-700">Currently designing and developing a role-based Employee Management System using React. </li>
@@ -64,6 +93,9 @@ function Resume() {
                     <li className="first-letter:text-blue-700">The project focuses on frontend state management using Context API and persistent data storage with localStorage.</li>
                 </ul>
             </div>
+
+
+
             <br />
             <br />
         </div>
